@@ -72,6 +72,7 @@ def input_nilaiUas():
     return nilaiUas
 ```
 # Screenshot Input Nilai
+![input_nilai](https://user-images.githubusercontent.com/56241285/72215806-e12e9580-354a-11ea-8118-3603d5fa2ec7.png)
 
 # Package Daftar Nilai
 ```
@@ -111,8 +112,13 @@ def hapus_data():
         print("Data",nama,"Telah dihapus!")
     else:
         print("Data Mahasiswa Tidak Ada".format(nama))
-Screenshot Daftar Nilai (1) Daftar Nilai (2)
-Package View Nilai
+```
+# Screenshot Daftar Nilai
+![daftar_nilai (1)](https://user-images.githubusercontent.com/56241285/72215804-e095ff00-354a-11ea-8301-781dfc60dc7b.png)
+![daftar_nilai (2)](https://user-images.githubusercontent.com/56241285/72215805-e12e9580-354a-11ea-95e1-3de6f81e93a6.png)
+
+# Package View Nilai
+```
 from model.daftar_nilai import *
 
 def cetak_daftar_nilai():
@@ -150,6 +156,7 @@ def cetak_hasil_pencarian():
         print("Datanya {0} Tidak Ada ".format(nama))
 ```
 # Screenshot View Nilai (1) View Nilai (2)
+![view_nilai](https://user-images.githubusercontent.com/56241285/72215809-e1c72c00-354a-11ea-815a-2c207def80b5.png)
 
 # Main
 ```
@@ -181,3 +188,4 @@ while True:
         print("Silahkan pilih menu yang tersedia!")
 ```
 # Screenshot Main
+![main](https://user-images.githubusercontent.com/56241285/72215808-e12e9580-354a-11ea-98de-47f23c5a5375.png)
